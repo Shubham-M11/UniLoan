@@ -1,0 +1,53 @@
+{
+  "healthy_personal": {
+    "approval_probability": 0.92,
+    "risk_level": "Low",
+    "suggested_loan_amount": 500000.0,
+    "key_factors": [
+      "You have a great credit score, which shows you manage your finances very well.",
+      "The loan amount you've requested is very reasonable compared to what you earn."
+    ],
+    "advisory": "Great news! Your profile looks very strong, and you have excellent chances of getting this loan."
+  },
+  "risky_personal": {
+    "approval_probability": 0.0,
+    "risk_level": "High",
+    "suggested_loan_amount": 270000.0,
+    "key_factors": [
+      "Your credit score is on the lower side. Improving it could really boost your chances of approval.",
+      "The loan amount you want is quite large compared to your income. Asking for a smaller amount might help."
+    ],
+    "advisory": "Currently, your application might be considered high risk. We recommend working on improving your credit score or reducing the loan amount you're asking for."
+  },
+  "medium_personal": {
+    "approval_probability": 0.0,
+    "risk_level": "High",
+    "suggested_loan_amount": 540000.0,
+    "key_factors": [
+      "Your credit score is fair, but there's still a bit of room for improvement.",
+      "The loan amount you want is quite large compared to your income. Asking for a smaller amount might help."
+    ],
+    "advisory": "Currently, your application might be considered high risk. We recommend working on improving your credit score or reducing the loan amount you're asking for."
+  },
+  "healthy_business": {
+    "approval_probability": 1.0,
+    "risk_level": "Low",
+    "suggested_loan_amount": 500000.0,
+    "key_factors": [
+      "You have a great credit score, which shows you manage your finances very well.",
+      "The loan amount you've requested is very reasonable compared to what you earn.",
+      "Your business has been operating for a few years, which brings solid stability to your application."
+    ],
+    "advisory": "Great news! Your profile looks very strong, and you have excellent chances of getting this loan."
+  },
+  "risky_business": {
+    "approval_probability": 0.21,
+    "risk_level": "High",
+    "suggested_loan_amount": 150000.0,
+    "key_factors": [
+      "Your credit score is on the lower side. Improving it could really boost your chances of approval.",
+      "The loan amount you want is quite large compared to your income. Asking for a smaller amount might help."
+    ],
+    "advisory": "Currently, your application might be considered high risk. We recommend working on improving your credit score or reducing the loan amount you're asking for."
+  }
+}
